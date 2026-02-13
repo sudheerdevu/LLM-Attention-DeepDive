@@ -1,0 +1,21 @@
+# Requirements for LLM Attention Deep Dive
+
+# Build dependencies
+hip-dev
+rocm-dev
+
+# Python dependencies (for analysis scripts)
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Profiling tools
+rocm-smi>=5.0.0
+
+# Optional: PyTorch for comparison
+# torch>=2.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
